@@ -1,4 +1,4 @@
-# 05-02 – Wine Type Classification with Deep Learning
+# 05-02 – Wine Quality Classification with Deep Learning
 
 ### IBM Machine Learning Professional Certificate
 
@@ -11,7 +11,7 @@
 
 This project explores the use of deep learning techniques to classify wines as either red or white using physicochemical measurements.
 
-Wine type classification is a binary classification problem where the objective is to predict whether an observation belongs to the red wine or white wine category. Neural networks will be evaluated to determine how effectively they learn the chemical patterns that distinguish wine types.
+Wine quality classification is a binary classification problem where the objective is to predict whether an observation belongs to the red wine or white wine category. Neural networks will be evaluated to determine how effectively they learn the chemical patterns that distinguish wine quality classes.
 
 Multiple model architectures, training strategies, and regularization methods will be compared to identify the most effective classifier.
 
@@ -19,7 +19,7 @@ Multiple model architectures, training strategies, and regularization methods wi
 
 # 🎯 Project Objective
 
-Develop, optimize, and evaluate neural network models capable of classifying wine type.
+Develop, optimize, and evaluate neural network models capable of classifying wine quality.
 
 The project investigates:
 
@@ -61,17 +61,17 @@ The dataset contains approximately 5,320 wine observations and includes physicoc
 
 ## Target Variable
 
-### Wine Type
+### Wine Quality
 
 ```text
-Target = Wine Type
+Target = Wine Quality Class
 ```
 
 Classification Labels:
 
 ```text
-0 = Red Wine
-1 = White Wine
+0 = Standard Wine
+1 = High-end Wine
 ```
 
 This is treated as a binary classification problem.
@@ -100,7 +100,7 @@ This project applies concepts from the IBM Deep Learning curriculum, including:
 
 This project seeks to answer the following questions:
 
-1. Can neural networks accurately classify wine type?
+1. Can neural networks accurately classify wine quality?
 2. How much improvement does an MLP provide over a Perceptron?
 3. Which activation function produces the best classification results?
 4. Which optimizer learns most efficiently?
@@ -146,7 +146,7 @@ Output
 
 ### Research Question
 
-Does an MLP outperform a simple Perceptron for wine type classification?
+Does an MLP outperform a simple Perceptron for wine quality classification?
 
 ---
 
@@ -332,7 +332,7 @@ What types of classification mistakes occur most frequently?
 
 ### Objective
 
-Identify the strongest-performing wine type classifier.
+Identify the strongest-performing wine quality classifier.
 
 ### Components Evaluated
 
@@ -416,7 +416,7 @@ Higher values indicate stronger classification capability.
 
 ✅ Exploratory Data Analysis (EDA)
 
-## Planned
+## Planning Phase
 
 ⬜ Baseline Classification Model  
 ⬜ Activation Function Comparison  
